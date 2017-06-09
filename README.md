@@ -25,24 +25,24 @@
 
 ## Apfree WiFiDog: Efficient captive portal solution
 
-Apfree-WiFidog is an open source captive protal solution for wireless router which with embeddabled linux([LEDE](https://github.com/lede-project/source)/[Openwrt](https://github.com/openwrt/openwrt)). 
+Apfree-WiFidog is an open source captive protal solution for wireless routers running embedded linux([LEDE](https://github.com/lede-project/source)/[Openwrt](https://github.com/openwrt/openwrt)). 
 
 
 **[中文介绍](https://github.com/liudf0716/apfree_wifidog/blob/master/README_ZH.md)**
 
-## Features different between original wifidog and us
+## Comparisons with the original [Wifidog](https://github.com/wifidog/wifidog-gateway)
 
-It has some awesome features:
+We have added some awesome features: 
 
-* *Compatible with original wifodog protocol*. You can seamless migration Apfree WiFidog to connect your auth server if you runned traditional wifidog.
+* *Compatibility with original wifodog protocol*. You can seamlessly migrate to Apfree WiFidog with your current auth server if you have been running the original Wifidog.
 
-* *HTTPS support*. Not only `HTTP`, Apfree WiFiDog can capture `HTTPS` URL request. It's a big deference between traditional WiFiDog.
+* *HTTPS support*. Apart from `HTTP` traffic, Apfree WiFiDog can also capture `HTTPS` requests. It is a huge improvement over the original WiFiDog.
 
 * *Efficient performance*. Run shell command `time curl --compressed` to test the Apfree WiFiDog reaction rate, `HTTP` response time is 0.05s and `HTTPS` is about 0.2s.
 
-* *Dynamical bulk loading*. Support MAC address and IP address bulk loading with out restart Apfree WiFiDog.
+* *Dynamical bulk loading*. Support MAC address and IP address bulk loading without restart.
 
-* *Wide application of business*. Apfree WiFidog has been installed and used in tens of thousands routers from KunTeng.Org and partners. Users have been affirmed, fully embodies the applicability, reliability.
+* *Widely adopted in business*. Apfree WiFidog has been installed and deployed in tens of thousands of routers from KunTeng.Org and partners. Users have been affirmed, fully embodies the applicability, reliability.
 
 
 ----
